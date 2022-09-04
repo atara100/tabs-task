@@ -1,0 +1,4 @@
+<app-tabs (onTabClick)="selectTab($event)"></app-tabs>
+<app-home-page *ngIf="selectedTab==='homePage'"></app-home-page>
+<app-settings *ngIf="selectedTab==='settings'"></app-settings>
+<app-about *ngIf="selectedTab==='about'"></app-about>
