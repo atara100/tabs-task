@@ -1,0 +1,11 @@
+<button (click)="like()" type="button" class="btn btn-primary position-relative mt-4">
+    like
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        {{card.likes}}
+        <span class="visually-hidden">unread messages</span>
+    </span>
+</button>
+
+<button (click)="disLike()" type="button" class="btn btn-primary position-relative mt-4 ms-4">
+    dislike
+</button>

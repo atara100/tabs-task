@@ -7,7 +7,16 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
 import { SettingsComponent } from './settings/settings.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { DisplayCardsComponent } from './display-cards/display-cards.component';
 import { MainComponent } from './main/main.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { CardComponent } from './card/card.component';
+import { LikesComponent } from './likes/likes.component';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -16,10 +25,17 @@ import { MainComponent } from './main/main.component';
     AboutComponent,
     SettingsComponent,
     HomePageComponent,
-    MainComponent
+    DisplayCardsComponent,
+    MainComponent,
+    CardComponent,
+    LikesComponent
+     
+
   ],
   imports: [
-    BrowserModule,
+ BrowserModule,
+ HttpClientModule,
+ FormsModule,
     NgbModule
   ],
   providers: [],
