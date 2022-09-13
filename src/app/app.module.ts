@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CardComponent } from './card/card.component';
 import { LikesComponent } from './likes/likes.component';
+import { ObservableComponent } from './observable/observable.component';
 
 
 
@@ -28,7 +29,8 @@ import { LikesComponent } from './likes/likes.component';
     DisplayCardsComponent,
     MainComponent,
     CardComponent,
-    LikesComponent
+    LikesComponent,
+    ObservableComponent
      
 
   ],
